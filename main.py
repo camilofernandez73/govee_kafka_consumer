@@ -19,8 +19,7 @@ def main():
 
         consumer_config = {
             "bootstrap_servers": config["bootstrap_servers"],
-            "group_id": "govee-temp-consumer-group", 
-            # "group_id": "my-consumer-group",  # Consumer group ID
+            "group_id": "govee-temp-consumer-group",
         }
 
         consumer = GooveTempConsumer(

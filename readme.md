@@ -18,7 +18,7 @@ Consume mensajes generados por Govee Kafka Producer.
     ```
     cd /home/pi/projects/govee_kafka_consumer/
 
-    python -m venv venv
+    
     ```
 3. **Activate the Virtual Environment**:
     ```
