@@ -1,0 +1,23 @@
+{
+    "ENV_KEY": "GOVEE_KAFKA_CONSUMER_ENV",
+    "production": {
+        "logging_level": "INFO",
+        "report_interval": 30,
+        "bootstrap_servers": ["192.168.177.12:9093"],
+        "topic_name": "govee-temp",
+        "redis_config" : {
+            "host": "192.168.177.12",
+            "port": 6379
+        }
+    },
+    "development": {
+        "logging_level": "INFO",
+        "report_interval": 30,
+        "bootstrap_servers": ["192.168.177.12:9093"],
+        "topic_name": "govee-temp",
+        "redis_config" : {
+            "host": "192.168.177.12",
+            "port": 6379
+        }
+    }
+}
